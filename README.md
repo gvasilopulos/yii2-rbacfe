@@ -6,7 +6,11 @@
          want to use an alternate implementation 
          Please Read:
          http://www.yiiframework.com/doc-2.0/guide-security-authorization.html
-         type yii rbacfe/help for help on usage
+         
+         installation: composer require gvasilopulos/yii-rbacfe dev-master 
+         or add "gvasilopulos/yii-rbacfe": "dev-master"
+         to your composer.json
+
     
          You have to add the following to your console configuration file
           'controllerMap' => [
