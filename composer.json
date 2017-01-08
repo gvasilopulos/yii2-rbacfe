@@ -1,0 +1,29 @@
+{
+    "name": "gvasilopulos/yii2-rbacfe",
+    "description": "A simple command line rbac frontend for Yii::$app->authManager",
+    "keywords": [
+        "yii2",
+        "extension",
+        "console",
+        "rbac",
+        "authorization"
+        
+    ],
+    "homepage": "https://github.com/gvasilopulos/yii2-rbacfe",
+    "type": "yii2-extension",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Giorgos Vasilopoulos",
+            "email": "eg.vasilopoulos@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+            },
+    "autoload": {
+        "psr-4": {
+            "gvasilopulos\\console\\": ""
+        }
+    }
+}
