@@ -9,7 +9,14 @@
          type yii rbacfe/help for help on usage
     
          You have to add the following to your console configuration file
-          'controllerMap' => [
+
+         just before return statement 
+
+         Yii::$classMap['gvasilopulos\console\controllers\RbacfeController'] = '@vendor/gvasilopulos/yii2-rbacfe/console/controllers/RbacfeController.php';
+
+         and this as an element of the return statement 
+
+         'controllerMap' => [
          'rbacfe' => 'gvasilopulos\console\controllers\RbacfeController'
          ],
        
