@@ -72,3 +72,6 @@
          yii rbacfe/rules : Lists all the rules in the application
 
          yii rbacfe/checkaccess username pemission
+
+
+[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
